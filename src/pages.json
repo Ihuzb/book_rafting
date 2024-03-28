@@ -1,16 +1,67 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
+  "pages": [
+    {
+      "path": "pages/progress-list/index",
+      "style": {
+        "navigationBarTitleText": "当前进度"
+      }
+    },
+    {
+      "path": "pages/info/index",
+      "style": {
+        "navigationBarTitleText": "uni4545app"
+      }
+    },
+    {
+      "path": "pages/add-site/index",
+      "style": {
+        "navigationBarTitleText": "添加新地址"
+      }
+    },
+    {
+      "path": "pages/site/index",
+      "style": {
+        "navigationBarTitleText": "下单"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "unpp"
+      }
+    },
+    {
+      "path": "pages/user/index",
+      "style": {
+        "navigationBarTitleText": "uni-app"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uapp",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "usingComponents": {
+      "van-button": "/wxcomponents/dist/button/index",
+      "van-tabbar": "/wxcomponents/dist/tabbar/index",
+      "van-tabbar-item": "/wxcomponents/dist/tabbar-item/index",
+      "van-popup": "/wxcomponents/dist/popup/index",
+      "van-row": "/wxcomponents/dist/row/index",
+      "van-col": "/wxcomponents/dist/col/index",
+      "van-icon": "/wxcomponents/dist/icon/index",
+      "van-divider": "/wxcomponents/dist/divider/index",
+      "van-image": "/wxcomponents/dist/image/index",
+      "van-rate": "/wxcomponents/dist/rate/index",
+      "van-goods-action": "/wxcomponents/dist/goods-action/index",
+      "van-goods-action-icon": "/wxcomponents/dist/goods-action-icon/index",
+      "van-goods-action-button": "/wxcomponents/dist/goods-action-button/index",
+      "van-steps": "/wxcomponents/dist/steps/index",
+      "van-collapse": "/wxcomponents/dist/collapse/index",
+      "van-collapse-item": "/wxcomponents/dist/collapse-item/index",
+      "van-action-sheet": "/wxcomponents/dist/action-sheet/index",
+      "van-field": "/wxcomponents/dist/field/index",
+      "van-cell": "/wxcomponents/dist/cell/index",
+      "van-cell-group": "/wxcomponents/dist/cell-group/index"
+    }
+  }
 }
